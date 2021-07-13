@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "GatsbyBlog",
+    title: "Gatsby GraphQL",
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
