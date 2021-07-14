@@ -12,7 +12,7 @@ const BlogPage = ({ data }) => {
       <p>My cool posts will go in here</p>
       <ul>
         {data.allFile.nodes.map(file => {
-          return (<li key={file.id}>{file.name}</li>)
+          return (<li key={file.id}><Link to={`/${file.name}`}>{file.name}</Link></li>)
         })}
       </ul>
     </Layout>
