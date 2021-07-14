@@ -1,5 +1,6 @@
 import React from 'react'
 import {MDXProvider} from '@mdx-js/react'
+import Layout from './Layout'
 
 import CodeBlock from './CodeBlock'
 
@@ -9,22 +10,6 @@ const components = {
 }
 export default props => (
   <MDXProvider components={components}>
-    <main {...props}></main>
+    <Layout {...props}></Layout>    
   </MDXProvider>
 )
-// import * as React from 'react'
-// import { Link } from 'gatsby'
-
-// import Layout from './Layout'
-
-// const LayoutBlog = ({ children }) => {
-
-//   return (
-//     <Layout >
-//       <div><Link to="/">⬅</Link></div>
-//       {children}
-//     </Layout>
-//   )
-// }
-
-// export default LayoutBlog

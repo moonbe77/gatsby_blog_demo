@@ -30,6 +30,7 @@ const Layout = ({ pageTitle, children }) => {
       </nav>
       <h1>{pageTitle}</h1>
       {children}
+      <footer><h5> By bMunz.dev > Gatsby Docs > MDX Docs</h5></footer>
     </main>
   )
 }
